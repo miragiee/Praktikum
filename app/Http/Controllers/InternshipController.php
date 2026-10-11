@@ -37,7 +37,7 @@ class InternshipController extends Controller
     $internships = Internship::latest()->get();
     $universities = University::all();
 
-    return view('create_internship', compact('internships', 'universities'));
+    return view('create-internship', compact('internships', 'universities'));
 }
 
     public function store(Request $request)

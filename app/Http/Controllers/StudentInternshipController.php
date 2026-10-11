@@ -13,7 +13,7 @@ class StudentInternshipController extends Controller
     public function main()
     {
         $studentInternships = StudentInternship::all();
-        return view('student_internships', compact('studentInternships'));
+        return view('student-internships', compact('studentInternships'));
     }
 
     public function index(Request $request)
@@ -24,7 +24,7 @@ class StudentInternshipController extends Controller
             return response()->json($studentInternships);
         }
 
-        return view('student_internships', compact('studentInternships'));
+        return view('student-internships', compact('studentInternships'));
     }
 
     /*

@@ -166,7 +166,7 @@ class CatalogController extends Controller
         */
 
         return view(
-            'catalog_of_universities',
+            'catalog-of-universities',
             compact(
                 'universities',
                 'candidates',

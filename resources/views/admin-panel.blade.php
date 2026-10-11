@@ -1,4 +1,4 @@
-{{-- admin_panel.blade.php --}}
+{{-- admin-panel.blade.php --}}
 <!DOCTYPE html>
 <html lang="ru">
 <head>

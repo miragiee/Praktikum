@@ -69,7 +69,7 @@ class ContractRequestController extends Controller
         $companies = Company::orderBy('name')->get();
         $universities = University::orderBy('name')->get();
 
-        return view('contract_request', compact('contractRequests', 'companies', 'universities'));
+        return view('contract-request', compact('contractRequests', 'companies', 'universities'));
     }
 
     public function create()
